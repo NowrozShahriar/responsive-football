@@ -53,6 +53,7 @@ header h1,img,a{
 
 /* main section styles */
 .main{
+    margin: 50px 0px;
     display: flex;
     justify-content: center;
 }
@@ -63,7 +64,7 @@ header h1,img,a{
 article{
     margin: 15px;
     width: 330px;
-    height: 474px;
+    height: 469px;
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 15px 15px 30px 15px;
