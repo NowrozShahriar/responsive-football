@@ -22,7 +22,7 @@ h1{
     font-size: 64px;
     line-height: 80px;
 }
-a{
+.button{
     text-decoration: none;
     background-color: #E02C6D;
     color: white;
@@ -80,7 +80,6 @@ h2{
     line-height: 26px;
     color: #6C6C6C;
 }
-
 
 /* footer styles */
 footer div{
