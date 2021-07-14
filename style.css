@@ -37,7 +37,7 @@ header:hover h1{
     transition: .5s;
 }
 header:hover img{
-    transform: rotate3d(10, 1, 10, 30deg);
+    transform: rotate3d(10, 1, 10, 30deg) scale(.9);
     transition: .35s ease-out;
 }
 header:hover a{
@@ -194,10 +194,6 @@ footer p{
 }
 
 @media screen and (min-width:801px) and (max-width:1200px) {
-    header{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
     .banner{
         width: 100%;
     }
