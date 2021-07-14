@@ -29,7 +29,7 @@ a{
     box-shadow: #00000019 0px 4px 4px;
     padding: 10px 28px;
 }
-#banner img{
+img{
     width: 100%;
 }
 header:hover h1{
@@ -69,9 +69,6 @@ article{
     padding: 15px 15px 30px 15px;
     box-shadow: #0000000f 15px 15px 40px 15px;
 }
-.player-image{
-    width: 100%;
-}
 h2{
     font-weight: bold;
     font-size: 28px;
@@ -94,7 +91,6 @@ footer div{
 }
 #logo{
     margin: 30px;
-    width: 100%;
 }
 .fab{
     font-size: 17px;
