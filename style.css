@@ -44,7 +44,7 @@ header:hover a{
     color: whitesmoke;
     font-size: 25px;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: .25s;
 }
 header h1,img,a{
@@ -137,7 +137,7 @@ button{
     width: 35%;
     background-color: #f03a7c;
     border: none;
-    color: whitesmoke;
+    color: white;
     border-radius: 1px;
 }
 
@@ -164,7 +164,7 @@ footer p{
 }
 
 /* media query */
-@media screen and (max-width:688px) {
+@media screen and (max-width:800px) {
     header{
         padding: 20px;
         flex-direction: column;
@@ -176,7 +176,7 @@ footer p{
         margin-top: 50px;
         margin-bottom: 20px;
     }
-    h1{
+    .banner h1{
         font-size: 36px;
         line-height: 50px;
     }
@@ -193,7 +193,14 @@ footer p{
     }
 }
 
-@media screen and (min-width:689px) and (max-width:1180px) {
+@media screen and (min-width:801px) and (max-width:1200px) {
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .banner{
+        width: 100%;
+    }
     .players{
         grid-template-columns: 1fr 1fr;
     }
